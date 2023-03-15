@@ -1,0 +1,150 @@
+.isotope-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 50px;
+}
+
+.isotope-btn {
+  border: 0;
+  background: transparent;
+  margin-right: 25px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+
+.isotope-btn:hover {
+  color: var(--primaryColor);
+  border-bottom: 1px solid var(--primaryColor);
+  cursor: pointer;
+}
+
+.isotope-btn.active {
+  border-bottom: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.iso-cat-title {
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.element-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.single-port-project-top {
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.single-port-project img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-iso .single-port-project {
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  padding: 0;
+}
+
+.single-port-project-hover {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(241, 96, 0, 0.6);
+  /* top: 0; */
+  left: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.single-port-project-hover a {
+  color: #fff;
+  font-size: 30px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.item:hover .single-port-project-hover {
+  left: 0;
+}
+
+.single-port-project-bottom {
+  text-align: center;
+  padding: 20px;
+}
+
+.port-project-title {
+  margin-bottom: 10px;
+}
+
+.port-designer {
+  font-size: 18px;
+}
+
+/*---------------------------------------------------------------------------- 
+    Portfolio Project Section End
+  ----------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------- 
+   13.0 - My Portfolio Section Start
+  ----------------------------------------------------------------------------*/
+.single-portfolio {
+  height: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-hover-box {
+  position: absolute;
+  content: "";
+  background: rgba(241, 96, 0, 0.7);
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  padding-top: 140px;
+  transition: 0.3s;
+}
+
+.portfolio-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.portfolio-text {
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.port-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.single-portfolio:hover .portfolio-hover-box {
+  left: 0;
+}

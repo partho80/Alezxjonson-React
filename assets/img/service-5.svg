@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="80.5" viewBox="0 0 81 80.5">
+  <g id="Group_6013" data-name="Group 6013" transform="translate(-815.395 -2228.5)">
+    <g id="icon" transform="translate(815.895 2229)">
+      <path id="Rectangle-12" d="M19.884,68.447H11.421A8.3,8.3,0,0,1,3,60.266V11.181A8.3,8.3,0,0,1,11.421,3H74.579A8.3,8.3,0,0,1,83,11.181V60.266a8.3,8.3,0,0,1-8.421,8.181H65.737" transform="translate(-3 -3)" fill="none" stroke="#f16000" stroke-linecap="round" stroke-width="1" fill-rule="evenodd"/>
+      <path id="Line" d="M3.5,7.5H79.342" transform="translate(-1.421 10.962)" fill="none" stroke="#f16000" stroke-linecap="square" stroke-width="1" fill-rule="evenodd"/>
+      <circle id="Oval-7" cx="4.158" cy="4.158" r="4.158" transform="translate(6.238 6.237)" fill="none" stroke="#f16000" stroke-width="0.5"/>
+      <circle id="Oval-7-2" data-name="Oval-7" cx="4.158" cy="4.158" r="4.158" transform="translate(14.758 6.237)" fill="none" stroke="#f16000" stroke-width="0.5"/>
+      <circle id="Oval-7-3" data-name="Oval-7" cx="4.158" cy="4.158" r="4.158" transform="translate(23.192 6.237)" fill="none" stroke="#f16000" stroke-width="0.5"/>
+      <path id="Rectangle-11" d="M11,43.027V22.237a6.237,6.237,0,0,1,12.474,0v20.79" transform="translate(22.762 36.973)" fill="none" stroke="#f16000" stroke-width="1" fill-rule="evenodd"/>
+      <path id="Oval-12" d="M37.862,40.926a16.632,16.632,0,1,0-25.821-.445" transform="translate(14.866 29.362)" fill="none" stroke="#f16000" stroke-linecap="round" stroke-width="1" fill-rule="evenodd"/>
+      <path id="Rectangle" d="M14.079,17a2.079,2.079,0,0,1,2.079,2.079v2.079H12V19.079A2.079,2.079,0,0,1,14.079,17Z" transform="translate(25.921 40.394)" fill="#f16000" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

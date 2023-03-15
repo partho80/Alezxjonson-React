@@ -1,0 +1,93 @@
+.contact-card {
+  text-align: center;
+  border-radius: 15px;
+  background: #fff;
+  margin-bottom: 40px;
+  transition: 0.3s;
+}
+
+.contact-card:hover .contact-card__icon {
+  background: var(--primaryColor);
+}
+
+.contact-card__icon {
+  font-size: 25px;
+  color: #fff;
+  background: #1f26ff;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.contact-card__text {
+  margin-bottom: 5px;
+}
+
+.google-map-section {
+  height: 100%;
+}
+
+.google-map-section iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.home-contact-form-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.home-contact-form .form-control {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  background: transparent;
+}
+
+.home-contact-form textarea.form-control {
+  height: calc(1.5em + 0.75rem + 2px);
+}
+
+.home-contact-form label {
+  margin-bottom: 35px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.home-contact-form .form-group {
+  margin-bottom: 30px;
+}
+
+.hc-wrapper {
+  height: 500px;
+}
+
+.hc-wrapper .col-md-6 {
+  height: 100%;
+}
+.cf-msg {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cf-msg p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #717484;
+  text-transform: capitalize;
+}

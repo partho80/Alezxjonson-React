@@ -1,0 +1,74 @@
+.btn-custom {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  border-radius: 0;
+  border-radius: 5px;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-custom-primary {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+}
+
+.btn-custom-primary:hover {
+  color: var(--primaryColor);
+  background: transparent;
+}
+
+.btn-custom-primary-reverse {
+  background: transparent;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+}
+
+.btn-custom-primary-reverse:hover {
+  background: var(--primaryColor);
+  color: #fff;
+  border: 1px solid var(--primaryColor);
+}
+
+.btn-custom-secondary {
+  border: 1px solid var(--secondaryColor);
+  background: var(--secondaryColor);
+  color: #fff;
+}
+
+.btn-custom-secondary:hover {
+  color: var(--secondaryColor);
+  background: transparent;
+}
+
+.btn-custom-secondary-reverse {
+  border: 1px solid var(--secondaryColor);
+  background: transparent;
+  color: var(--secondaryColor);
+}
+
+.btn-custom-secondary-reverse:hover {
+  color: #fff;
+  background: var(--secondaryColor);
+}
+
+.btn-custom-white {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-custom-white:hover {
+  background: #fff;
+  color: #4d4d4d;
+}
+
+.learn-more-btn {
+  font-weight: 700;
+}

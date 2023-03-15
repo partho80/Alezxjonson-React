@@ -1,0 +1,117 @@
+.footer-bg-img {
+  background-image: url("../img/footer-bg-img.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.main-logo-white {
+  width: 200px;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 45px 0;
+}
+
+.footer-social li {
+  margin-right: 20px;
+}
+
+.footer-social li a {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.footer-social li a:hover {
+  color: #fff;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.footer-social li:first-child a:hover {
+  background-color: #4267b2;
+  border-color: #4267b2;
+}
+
+.footer-social li:nth-child(2) a:hover {
+  background-color: #00acee;
+  border-color: #00acee;
+}
+
+.footer-social li:nth-child(3) a:hover {
+  background: -o-linear-gradient(60.39deg,
+      #f38334 0%,
+      #da2e7d 50.39%,
+      #6b54c6 100%);
+  background: linear-gradient(29.61deg,
+      #f38334 0%,
+      #da2e7d 50.39%,
+      #6b54c6 100%);
+  border-color: #da2e7d;
+}
+
+.footer-social li:nth-child(4) a:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.footer-social li:nth-child(5) a:hover {
+  background-color: #ea4c89;
+  border-color: #ea4c89;
+}
+
+.footer-social li:nth-child(6) a:hover {
+  background-color: #0057ff;
+  border-color: #0057ff;
+}
+
+.footer-menu-collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.footer-menu-collection li {
+  margin-right: 40px;
+}
+
+.footer-menu-collection li a {
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.footer-hr {
+  border-color: #fff;
+  opacity: 0.15;
+}
+
+.copyright-text {
+  padding: 35px 0;
+  color: #fff;
+}

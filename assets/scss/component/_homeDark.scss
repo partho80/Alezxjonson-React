@@ -1,0 +1,179 @@
+body.dark-bg {
+  background: #191919;
+}
+
+body.dark-bg .header-bg {
+  background: #000;
+}
+
+body.dark-bg .header-area .navbar-nav>.nav-item>.nav-link {
+  color: #fff;
+}
+
+body.dark-bg p {
+  color: #fff;
+}
+
+body.dark-bg .ht-span {
+  color: var(--primaryColor);
+}
+
+body.dark-bg h1,
+body.dark-bg h2,
+body.dark-bg h3,
+body.dark-bg h4,
+body.dark-bg h5,
+body.dark-bg h6 {
+  color: #fff;
+}
+
+body.dark-bg .header-area .dropdown-item {
+  color: #4d4d4d !important;
+}
+
+body.dark-bg .header-area .dropdown-item:hover,
+body.dark-bg .header-area .dropdown-item:focus,
+body.dark-bg .header-area .dropdown-item.active,
+body.dark-bg .header-area .dropdown-item:active {
+  color: #fff !important;
+}
+
+body.dark-bg .hero .container {
+  background: #070707;
+}
+
+body.dark-bg .home-blog-2 .shb-bottom {
+  background: #191919;
+}
+
+body.dark-bg .hero .container:before {
+  background: #070707;
+}
+
+body.dark-bg .hero-area.hero-bg-img {
+  background: #fff;
+}
+
+body.dark-bg .hero-2-right-img img {
+  filter: grayscale(1);
+}
+
+body.dark-bg .hero-2-right-img::after {
+  display: none;
+}
+
+body.dark-bg-2 .hero-area.hero-bg-img {
+  background: #070707 !important;
+}
+
+body.dark-bg .bio-left-left::before {
+  background: blue;
+}
+
+body.dark-bg a {
+  color: #fff;
+}
+
+body.dark-bg .isotope-btn {
+  border-bottom: #101010;
+}
+
+body.dark-bg .isotope-btn:hover {
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+body.dark-bg .isotope-btn.active {
+  border-bottom: 1px solid var(--primaryColor);
+}
+
+body.dark-bg li {
+  color: #fff;
+}
+
+body.dark-bg .services-area {
+  background: #191919;
+}
+
+body.dark-bg .services-area {
+  background: #191919;
+  padding: 100px 0;
+}
+
+body.dark-bg .services-area {
+  background: #101010;
+}
+
+body.dark-bg .hero-top-text::before,
+body.dark-bg .social-box::before {
+  background: #fff;
+}
+
+body.dark-bg .single-services {
+  background: #191919;
+}
+
+body.dark-bg .education-area:before {
+  background: #101010;
+}
+
+body.dark-bg .education-area {
+  background: #101010;
+}
+
+body.dark-bg .portfolio-area {
+  background: #101010;
+}
+
+body.dark-bg-2 .portfolio-area {
+  background: transparent;
+}
+
+body.dark-bg .testimonial-content-wrapper {
+  background: #101010;
+}
+
+body.dark-bg .sbg {
+  background: #101010;
+}
+
+body.dark-bg .sb-text {
+  color: #fff;
+}
+
+body.dark-bg .btn.read-more-btn {
+  color: #fff;
+}
+
+body.dark-bg .single-home-blog.hover-blog {
+  background: #191919;
+}
+
+body.dark-bg .contact-card {
+  background: transparent;
+}
+
+body.dark-bg .home-contact-form-wrapper {
+  background: #101010;
+}
+
+body.dark-bg .single-port-project-bottom {
+  background: #191919;
+}
+
+body.dark-bg .home-contact-form-wrapper input::placeholder,
+body.dark-bg .home-contact-form-wrapper textarea::placeholder {
+  color: #fff;
+}
+
+body.dark-bg .home-contact-form .form-control {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+body.dark-bg .home-contact-form label {
+  color: #fff;
+}
+
+body.dark-bg .footer-bg-img {
+  background-image: url(../img/footer-bg-dark.jpg);
+}

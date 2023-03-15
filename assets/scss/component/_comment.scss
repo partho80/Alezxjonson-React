@@ -1,0 +1,38 @@
+.comment-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.writter-bio h6 {
+  font-size: 20px;
+  color: #222;
+}
+
+.comment-box p {
+  font-size: 16px;
+  color: #222;
+  line-height: 26px;
+}
+
+.writter-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.comment-box h6 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.bd-title h4 {
+  font-size: 25px;
+}
